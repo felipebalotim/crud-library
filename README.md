@@ -1,6 +1,6 @@
 # crud-library
 
-Aplicação de cadastro de livros desenvolvido para estudar as tecnologias .Net Core usando o Linux Fedora 32.
+Aplicação MVC de cadastro de livros desenvolvido para estudar as tecnologias .Net Core usando o Linux Fedora 32.
 
 ## Bibliotecas e tecnologias utilizadas no projeto
 
