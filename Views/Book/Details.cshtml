@@ -1,0 +1,39 @@
+@model library.Models.Book
+
+@{
+    ViewData["Title"] = "Detalhes";
+}
+
+<h1>Detalhes</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Author)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Author)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Page)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Page)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-link" asp-action="Edit" asp-route-id="@Model.Id" data-toggle="tooltip" data-placement="bottom" title="Editar">
+        <i class="fas fa-pencil-alt"></i>
+    </a>
+    <a class="btn btn-link" asp-action="Index" data-toggle="tooltip" data-placement="bottom" title="Voltar">
+        <i class="far fa-arrow-alt-circle-left"></i>
+    </a>
+</div>

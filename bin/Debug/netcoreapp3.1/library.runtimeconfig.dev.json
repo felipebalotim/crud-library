@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/fbalotim/.dotnet/store/|arch|/|tfm|",
+      "/home/fbalotim/.nuget/packages"
+    ]
+  }
+}
